@@ -1,0 +1,2 @@
+
+const fetchLatestTweet = require('./fetchLatestTweet'); (async () => { const username = 'genraltobi'; // or 'farmercist_eth' try { const { tweetText, mediaUrl } = await fetchLatestTweet(username); console.log('Tweet Text:', tweetText); console.log('Media URL:', mediaUrl || 'No image in this tweet'); } catch (err) { console.error('Error fetching tweet:', err.message); } })();
