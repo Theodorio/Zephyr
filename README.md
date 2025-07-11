@@ -26,5 +26,9 @@
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/zephyr-bot.git
-   cd zephyr-bot
+   git clone https://github.com/Theodorio/Zephyr.git
+   cd Zephyr 
+   npm install 
+   npm run 
+  
+Scan the code presented to you and you have your bot. You would have to edit the hardcorded number part and add your number or you won't have access to the bot. 
